@@ -1,0 +1,20 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "A simple Rock Paper Sciccors game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BixBee96/rock-paper-scissors.git"
+  },
+  "author": "Bhavesh Bhimte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BixBee96/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/BixBee96/rock-paper-scissors#readme"
+}

@@ -3,10 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
   </head>
   <body>
-    <h1>Lets play Rock Paper Scisscors</h1>
-    
+
+    <div class="container">
+      <div class="title-name">
+        <li>Let's Play Rock Paper Sciccors</li>
+      </div>
+
+      <div class="main">
+        
+          <button type="button" class="btn btn-primary" 
+          id="rock" onclick="playRPS()">Rock</button>
+
+          <button type="button" class="btn btn-primary" 
+          id="paper" onclick="playRPS()">Paper</button>
+
+          <button type="button" class="btn btn-primary" 
+          id="scissors" onclick="playRPS()">Scissors</button>
+
+      </div>
+    </div>
+<script src="app.js"></script>    
   </body>
 </html>
